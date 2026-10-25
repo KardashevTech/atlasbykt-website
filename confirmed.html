@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Confirmed — Atlas by KT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: #111111;
+  border: 1px solid #222222;
+  border-radius: 20px;
+  padding: 48px 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.wordmark {
+  color: #CCFF00;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  color: #888888;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(204,255,0,0.08);
+  border: 1.5px solid #CCFF00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #888888;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255,255,255,0.06);
+  margin: 0 0 24px;
+}
+
+.note {
+  color: #555555;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 32px;
+  color: rgba(160,160,160,0.4);
+  font-size: 11px;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .card { padding: 36px 24px; }
+}
+</style>
+<script>
+// Clear the URL hash immediately — the token stays in the browser only and is not sent anywhere.
+if (window.location.hash) {
+  history.replaceState(null, '', window.location.pathname + window.location.search);
+}
+</script>
+</head>
+<body>
+
+<div class="card">
+  <p class="wordmark">ATLAS BY KT</p>
+  <p class="tagline">TRUST-POWERED MARKETPLACE</p>
+
+  <div class="icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#CCFF00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"/>
+    </svg>
+  </div>
+
+  <h1>Email confirmed</h1>
+  <p>Your Atlas account is now active. Open the Atlas app and sign in to get started.</p>
+
+  <div class="divider"></div>
+
+  <p class="note">
+    Already back in the app? Tap <strong style="color:#CCFF00;">Sign In</strong> and enter your email and password.
+    If you have any trouble, contact us at <a href="mailto:support@atlasbykt.com" style="color:#00BFFF;text-decoration:none;">support@atlasbykt.com</a>.
+  </p>
+</div>
+
+<footer>&copy; 2026 Kardashev Technologies. All rights reserved.</footer>
+
+</body>
+</html>
